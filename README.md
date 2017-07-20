@@ -1,8 +1,8 @@
 # In vitro method for information calculation
-Create and analyze data for MI experiment as described in the following paper: \n
+Create and analyze data for MI experiment as described in the following paper: <br />
 Zeldenrust, F., de Knecht, S., Wadman, W. J., Denève, S., Gutkin, B., Knecht, S. De, Denève, S. (2017). 
 Estimating the Information Extracted by a Single Spiking Neuron from a Continuous Input Time Series. 
-Frontiers in Computational Neuroscience, 11, 49. doi:10.3389/FNCOM.2017.00049
+Frontiers in Computational Neuroscience, 11, 49. doi:10.3389/FNCOM.2017.00049 <br />
 Please cite this reference when using this method.
 
 # About
