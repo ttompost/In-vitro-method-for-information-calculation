@@ -10,7 +10,7 @@ Frontiers in Computational Neuroscience, 11, 49. doi:10.3389/FNCOM.2017.00049 <b
 Please cite both references when using the data.
 
 # About
-This MATLAB code loads a data file from 
+This MATLAB code loads a data file from the GigaScience database above, and calculated the mutual information between the hidden state and the spike train.
 
 # Use
 see: Example_use_experiments
