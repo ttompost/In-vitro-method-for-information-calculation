@@ -2,10 +2,6 @@
 Analyze frozen noise data from
 da Silva Lantyer, A.*, Calcini, N.*, Bijlsma, A.*, Zeldenrust, F., Scheenen, W. J. J., Celikel, T. (under review) A databank for intracellular electrophysiological mapping of the adult somatosensory cortex. GigaScience
 
-
-
-
-
 Using the method as described in: <br />
 Zeldenrust, F., de Knecht, S., Wadman, W. J., Denève, S., Gutkin, B., Knecht, S. De, Denève, S. (2017). 
 Estimating the Information Extracted by a Single Spiking Neuron from a Continuous Input Time Series. 
