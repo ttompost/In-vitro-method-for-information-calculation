@@ -11,4 +11,5 @@ Please cite both references when using the data.
 This MATLAB code loads a data file from the GigaScience database above, and calculates and plots the mutual information between the hidden state and the spike train.
 
 # Use
-see: Example_use_experiments
+see: Example_use_experiments <br />
+NB Download the whole 'In-vitro-method-for-information-calculation'-directory, as the functions in the 'functions' folder are also needed here.  
