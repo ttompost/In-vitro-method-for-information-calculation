@@ -154,7 +154,7 @@ if isfield(Data, 'firing_rate')
         end
     end
 
-    subplot(3,4,9)
+    subplot(3,3,9)
     hold all
     plot(MI_i, MI_o, [color symbol]);
     xlabel('MI_{input} (bits)')
@@ -166,7 +166,7 @@ if isfield(Data, 'firing_rate')
     grid on
     box on
     
-    subplot(3,4,10)
+    subplot(3,3,10)
     hold all
     plot(fr, FI, [color symbol]);
     xlabel('firing rate (Hz)')
@@ -177,7 +177,7 @@ if isfield(Data, 'firing_rate')
     grid on
     box on
     
-    subplot(3,4,11)
+    subplot(3,3,11)
     hold all
     plot(fr*Data.settings.tau/1000, FI, [color symbol]);
     xlabel('normalized firing rate (r*\tau, unitless)')
