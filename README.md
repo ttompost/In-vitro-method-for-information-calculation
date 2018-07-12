@@ -10,5 +10,11 @@ Please cite this reference when using this method.
 # About
 This MATLAB toolbox creates a hidden state and fluctuating input, that can be used in current-clamp experiments. Moreover, it provides the functions to calculate the entropy of the hidden state, the mutual information between the hidden state and the input, and the mutual information between the hidden state and an output spike train (calculated from a recorded membrane potential). Finally, it also gives the response of the 'Bayesian Neuron' for comparison.  
 
+For how to use the method on the data in <br />
+*da Silva Lantyer, A., Calcini, N., Bijlsma, A., Zeldenrust, F., Scheenen, W. J. J., Celikel, T. (under review) A databank for intracellular electrophysiological mapping of the adult somatosensory cortex. GigaScience* <br />
+Please look at this repository: 
+https://github.com/DepartmentofNeurophysiology/Analysis-tools-for-electrophysiological-somatosensory-cortex-databank
+
+
 # Use
 see: Example_experiment
