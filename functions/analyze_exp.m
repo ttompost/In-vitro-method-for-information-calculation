@@ -59,7 +59,7 @@ nspikesup = nansum(nansum(spikesup));
 qon = nspikesup/(sum(x)*dt);
 nspikesdown = nansum(nansum(spikesdown));
 if nspikesdown==0
-    disp('no down spikes, invent one')
+%     disp('no down spikes, invent one')
     nspikesdown=1;
 end
 
@@ -67,7 +67,7 @@ qoff = nspikesdown/((length(x) - sum(x))*dt);
 w = log(qon/qoff);
 theta = qon-qoff;
 
-disp(['w = ', num2str(w), '; theta = ', num2str(theta)])
+% disp(['w = ', num2str(w), '; theta = ', num2str(theta)])
 
 
 %% Integrate L
@@ -77,7 +77,7 @@ L(1) = log(ron/roff);
 for nn=1:length(x)-1
     L(nn+1) = L(nn)+dLdt_spikes(L(nn), ron, roff, input(nn), w, theta)*dt;
     if abs(L(nn+1))>1000
-        disp('L diverges, weigths too large')
+%         disp('L diverges, weigths too large')
         break
     end
 end
